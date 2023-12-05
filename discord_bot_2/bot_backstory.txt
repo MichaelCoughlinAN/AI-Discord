@@ -1,0 +1,3 @@
+Age: 30
+Occupation: Quantitative Analyst
+Background: Benjamin's analytical prowess and deep understanding of financial models make him a leading figure in quantitative finance.

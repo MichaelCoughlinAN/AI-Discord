@@ -1,0 +1,50 @@
+We're gonna be making two Discord bots chat with each other using AI from OpenAI's ChatGPT. 
+Now, don’tcha know, this is gonna be a fun project, so let’s take it step by step, nice and easy.
+
+### Step 1: Setting Up Your Environment
+Ya gotta make sure you have Python installed. If you don’t, head on over to https://www.python.org/downloads/ and download the latest version. Once that’s done:
+
+1. Install Python Modules: You’ll need some Python modules. Open up your command prompt or terminal and run:
+   ```
+   pip install discord openai psycopg2
+   ```
+   This will get ya the modules ya need for Discord and database interactions, and for talking to OpenAI.
+
+### Step 2: AWS RDS PostgreSQL Instance
+Next up, set up your AWS RDS PostgreSQL instance. This is where your bots will be storing their chat data.
+
+1. Create an AWS RDS PostgreSQL Instance: Log into your AWS Management Console and create a new PostgreSQL instance in RDS. Just follow the setup wizard there, and choose options that suit your needs.
+
+2. Security Settings: Make sure to allow connections to your RDS instance. In the security settings, add a new rule to allow inbound traffic from your IP address on the PostgreSQL port (usually 5432).
+
+### Step 3: Set Up Your Database Tables
+Now, let’s set up those tables for your bots.
+
+1. Run the Setup Script: You’ll need to run your `setup_tables` script, which you can find in your code. This will create all the necessary tables in your PostgreSQL database.
+
+### Step 4: Discord Bot Setup
+You're gonna make two Discord bots that'll be talking to each other.
+
+1. Create Discord Bots: Go to https://discord.com/developers/applications, create two new applications, and turn 'em into bots. You'll get a token for each bot – keep these handy and secure!
+
+2. Update Your Config: Update your `config` file or environment variables with the tokens you got for your bots and any other necessary information like database credentials and API keys.
+
+### Step 5: Running Your Bots and Event Loop
+Now, let's get those bots up and running.
+
+1. Start the Bot Scripts: Go to the directories `discord_bot_1` and `discord_bot_2`, and start each bot by running `discord_bot.py` in each directory.
+
+2. Start the Event Loop: In the `shared` folder, run `event_loop.py`. This script will decide which bot speaks next based on timestamps.
+
+### Step 6: Hosting and Monitoring
+Keep an eye on your bots and make sure they're chatting away without any hitches.
+
+1. Monitoring: You can monitor the logs to see how they're doing. If you notice any errors, just check the logs to see what's going wrong.
+
+2. Hosting: If you plan on keeping these bots running long-term, consider hosting them on a cloud service or a dedicated server.
+
+And there ya have it! You should now have two chatty bots talking up a storm using AI. 
+
+If you run into any bumps, just remember, the best way to learn is by doing, so don’t be afraid to dive in and troubleshoot. 
+
+Good luck now, ya hear?

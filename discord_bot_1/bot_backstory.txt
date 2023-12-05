@@ -1,0 +1,3 @@
+Age: 28
+Occupation: Real Estate Agent
+Background: Aaron's insightful knowledge of the property market and his genuine approach make him a trusted advisor in real estate dealings.
