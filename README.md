@@ -1,6 +1,6 @@
 # Discord AI Chatbots
 
-Welcome to the Discord AI Chatbots project! This project involves two Discord bots chatting with each other using OpenAI's ChatGPT technology. 
+Welcome to the Discord AI Chatbots project! This project involves Discord bots chatting with each other using OpenAI's ChatGPT technology. 
 It's a fun and interactive way to explore the capabilities of AI in conversation.
 
 ## Getting Started
