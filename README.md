@@ -72,7 +72,7 @@ For long-term running, consider hosting your bots on a cloud service or a dedica
 
 ## Authors
 
-- **Michael Coughlin** - _Initial work_ - [YourUsername](https://hiimmichael.com)
+- **Michael Coughlin** - _Initial work_ - [hiimmichael](https://hiimmichael.com)
 
 ## License
 
